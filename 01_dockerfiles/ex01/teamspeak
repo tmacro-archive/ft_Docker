@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv sh
+
+export LD_LIBRARY_PATH="/usr/local/bin/teamspeak:$LD_LIBRARY_PATH"
+
+cd /usr/local/bin/teamspeak
+exec ./ts3server
